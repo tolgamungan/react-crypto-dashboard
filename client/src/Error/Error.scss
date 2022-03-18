@@ -1,0 +1,22 @@
+@import "./../_globals";
+
+.error {
+    @include display-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items:center;
+
+    &__frown {
+        font-family: "Arvo", sans-serif;
+        font-weight: bold;
+        padding-bottom: 10px;
+        font-size:24px;
+    }
+
+    &__message {
+        padding-left:20px;
+        font-family: "Arvo", sans-serif;
+        font-size:14px;
+    }
+
+}

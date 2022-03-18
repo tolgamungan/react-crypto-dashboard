@@ -1,0 +1,20 @@
+@import 'bootstrap/scss/bootstrap';
+
+$tablet: "screen and (max-width:660px)";
+$phone: "screen and (max-width:660px)";
+$accent-color:#469672;
+$text-color:#524f4f;
+$background-color:#d7d4d4;
+$input-background-color:#f1eded;
+$greyed-color: #C0C0C0;
+$fonts-heading: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+$fonts-body: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+$fonts-mono: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+
+@mixin display-flex() {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}

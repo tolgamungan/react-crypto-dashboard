@@ -1,0 +1,35 @@
+# build image with: docker compose -f docker-compose.yml build
+# run container with: docker compose -f docker-compose.yml up
+# build and run with: docker compose -f docker-compose.yml up --build
+
+version: '3.7'
+
+services:
+
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    image: client-server
+    container_name: my-client-server
+    command: npm start
+    # node_modules gets its own volume for all containers to share
+    volumes:
+      - ./client/:/usr/app
+      - /usr/app/node_modules
+    depends_on:
+      - server
+    ports:
+      - "3000:3000"
+    networks:
+      - app-network
+
+networks:
+    app-network:
+        driver: bridge
+
+volumes:
+    # the two volumes that were created
+    node_modules:
+    web-root:
+      driver: local

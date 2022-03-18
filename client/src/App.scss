@@ -1,0 +1,94 @@
+@import "./_globals";
+@import 'bootstrap/scss/bootstrap';
+// .navbar{
+//     display: ;
+// }
+.main {
+    height:100%;
+    a {
+        color:$text-color;
+        text-decoration: none; 
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    max-width: 1440px;
+    margin: auto;
+}
+.button {
+    border: none;
+}
+
+.border-bottom{
+    border-bottom: 1px solid rgb(221, 216, 216)!important;
+}
+.header,h4, thead th button {
+    @include display-flex();
+    flex-flow: row wrap;
+    align-items:center;
+    font-weight: bold !important;
+    font-size:20px;
+    padding-bottom:10px;
+
+    .header{ color: $text-color !important; }
+}
+div .footer a{ color: $accent-color; }
+.footer {
+    margin-top:40px;
+    margin-bottom:10px; 
+}
+img, svg{
+    pointer-events: none !important;
+}
+.search-bar{
+    max-width: 90% !important;
+    margin: auto;
+}
+.search-bar:focus::placeholder {
+    color: transparent;
+  }
+
+@media only screen and (max-width: 735px) {
+
+    td span {
+        font-size:10px !important;
+        font-weight: 500 !important;
+    }
+    thead th button{
+        font-size:11px !important;
+        font-weight: 500 !important;
+    }
+    .main{
+        width: 100% !important;
+        margin: auto !important;
+    }
+    thead tr th{
+        padding-right: 8px !important;
+    }
+    tbody tr td {
+        font-size:10px !important;
+        font-weight: 400 !important;
+    }
+  }
+
+@media only screen and (max-width: 400px) {
+
+    td span {
+        font-size:10px !important;
+        font-weight: 500 !important;
+    }
+    thead th button{
+        font-size:6px !important;
+        font-weight: 500 !important;
+    }
+    .main{
+        margin-left: -23%;
+    }
+    thead tr th button{
+        padding-right: 8px !important;
+    }
+
+
+
+  }
+

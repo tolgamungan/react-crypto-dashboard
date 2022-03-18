@@ -1,0 +1,11 @@
+@import "./../_globals";
+@import 'bootstrap/scss/bootstrap';
+@import "@fortawesome/fontawesome-free";
+
+.text-white{
+    background-color: #f1f1f1 ;
+}
+
+.text-dark{
+    background-color: rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,44 @@
+@import "./../_globals";
+@import 'bootstrap/scss/bootstrap';
+
+
+.nowrap{
+  white-space: nowrap;
+}
+.border-bottom{
+    border-bottom: 1px solid rgb(233, 228, 228)!important;
+}
+thead tr th{
+  padding-right: 50px;
+}
+#center-text{
+	text-align: center;
+}
+
+table thead tr th#market_cap, table thead tr th#price.border-bottom{
+  align-content: center !important;
+}
+
+thead th{
+    cursor: grab;
+  }
+table thead tr th#market_cap button{
+  width: 145%;
+  margin: auto;
+}
+/* See: http://mothereff.in/css-escapes */
+  [id='24h_volume'] button {
+  width: 145%;
+  margin: auto;
+}
+@media only screen and (max-width: 735px) {
+  table thead tr th#market_cap button{
+    width: 115%;
+    margin: auto;
+  }
+  [id='24h_volume'] button {
+    width: 115%;
+    margin: auto;
+  }
+
+}

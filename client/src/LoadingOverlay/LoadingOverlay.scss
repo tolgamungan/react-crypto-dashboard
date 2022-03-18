@@ -1,0 +1,24 @@
+// Notice that I have included the mixin here instead of importing it from _globals.scss - This is so that the LoadingOverlay component can be easily reused in other apps without relying on a _globals.scss partial
+@mixin flex-display() {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.loading-overlay {
+    position: fixed;
+    z-index: 999;
+    left:0px;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    overflow: show;
+    margin: auto;
+    display:block;
+    width:100%;
+    height:100%;
+    @include flex-display;
+    justify-content: center;
+    align-items: center;
+}

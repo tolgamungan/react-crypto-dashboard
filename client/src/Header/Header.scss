@@ -1,0 +1,21 @@
+@import "./../_globals";
+@import 'bootstrap/scss/bootstrap';
+
+img{
+    pointer-events: none;
+}
+a{
+    background-size: 300px 100px !important;
+    text-decoration: none !important;
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+    -o-transition: background-color 1s ease-out;
+    transition: background-color 1s ease-out;
+}
+a:hover{
+    background-color: #eaecee;
+}
+li a{
+    width: 90px !important;
+    text-align: center;
+}
