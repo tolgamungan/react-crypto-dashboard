@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/react-crypto-dashboard/static/css/main.d9d6c134.chunk.css",
-    "main.js": "/react-crypto-dashboard/static/js/main.df834e57.chunk.js",
-    "main.js.map": "/react-crypto-dashboard/static/js/main.df834e57.chunk.js.map",
-    "runtime-main.js": "/react-crypto-dashboard/static/js/runtime-main.b4d47839.js",
-    "runtime-main.js.map": "/react-crypto-dashboard/static/js/runtime-main.b4d47839.js.map",
+    "main.css": "/react-crypto-dashboard/static/css/main.8fc559c5.chunk.css",
+    "main.js": "/react-crypto-dashboard/static/js/main.9437620c.chunk.js",
+    "main.js.map": "/react-crypto-dashboard/static/js/main.9437620c.chunk.js.map",
+    "runtime-main.js": "/react-crypto-dashboard/static/js/runtime-main.f110e9bf.js",
+    "runtime-main.js.map": "/react-crypto-dashboard/static/js/runtime-main.f110e9bf.js.map",
     "static/css/2.22775216.chunk.css": "/react-crypto-dashboard/static/css/2.22775216.chunk.css",
-    "static/js/2.884c2b44.chunk.js": "/react-crypto-dashboard/static/js/2.884c2b44.chunk.js",
-    "static/js/2.884c2b44.chunk.js.map": "/react-crypto-dashboard/static/js/2.884c2b44.chunk.js.map",
-    "static/js/3.1732a35a.chunk.js": "/react-crypto-dashboard/static/js/3.1732a35a.chunk.js",
-    "static/js/3.1732a35a.chunk.js.map": "/react-crypto-dashboard/static/js/3.1732a35a.chunk.js.map",
+    "static/js/2.bc4c050f.chunk.js": "/react-crypto-dashboard/static/js/2.bc4c050f.chunk.js",
+    "static/js/2.bc4c050f.chunk.js.map": "/react-crypto-dashboard/static/js/2.bc4c050f.chunk.js.map",
+    "static/js/3.4217e894.chunk.js": "/react-crypto-dashboard/static/js/3.4217e894.chunk.js",
+    "static/js/3.4217e894.chunk.js.map": "/react-crypto-dashboard/static/js/3.4217e894.chunk.js.map",
     "index.html": "/react-crypto-dashboard/index.html",
     "static/css/2.22775216.chunk.css.map": "/react-crypto-dashboard/static/css/2.22775216.chunk.css.map",
-    "static/css/main.d9d6c134.chunk.css.map": "/react-crypto-dashboard/static/css/main.d9d6c134.chunk.css.map",
-    "static/js/2.884c2b44.chunk.js.LICENSE.txt": "/react-crypto-dashboard/static/js/2.884c2b44.chunk.js.LICENSE.txt",
+    "static/css/main.8fc559c5.chunk.css.map": "/react-crypto-dashboard/static/css/main.8fc559c5.chunk.css.map",
+    "static/js/2.bc4c050f.chunk.js.LICENSE.txt": "/react-crypto-dashboard/static/js/2.bc4c050f.chunk.js.LICENSE.txt",
     "static/media/solid.scss": "/react-crypto-dashboard/static/media/fa-solid-900.eeccf4f6.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.b4d47839.js",
+    "static/js/runtime-main.f110e9bf.js",
     "static/css/2.22775216.chunk.css",
-    "static/js/2.884c2b44.chunk.js",
-    "static/css/main.d9d6c134.chunk.css",
-    "static/js/main.df834e57.chunk.js"
+    "static/js/2.bc4c050f.chunk.js",
+    "static/css/main.8fc559c5.chunk.css",
+    "static/js/main.9437620c.chunk.js"
   ]
 }
