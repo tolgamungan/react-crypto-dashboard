@@ -3,9 +3,9 @@
 ## ℹ️ Overview
 > *This project folder contains the React client side
 
-**An cryptocurrency dashboard app styled with bootstrap
-**
-## Available Scripts
+** A cryptocurrency dashboard app styled with bootstrap **
+
+## 🚀 Available Scripts
 
 In the project directory, you can run:
 
