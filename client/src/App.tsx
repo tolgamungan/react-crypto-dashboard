@@ -73,6 +73,29 @@ function App() {
             } exact />
 
           <Route render={() => <Error />} />
+          <Route
+            path="/react-crypto-dashboard"
+            render={() => 
+      
+              <div>
+                <Header /> 
+              <table>
+                <input
+                type="text" 
+                placeholder="Search a coin" 
+                className="search-bar form-control bg-white text-dark border-0 mt-5 text-center shadow-lg"
+                onChange={e => setSearch(e.target.value)}
+                /><br/><br/>
+                <Content coins={coins}  search={search}/> 
+                </table><br/><br/>
+
+                <Footer /> 
+
+              </div>
+          
+            } exact />
+
+          <Route render={() => <Error />} />
         </Switch>
   
     </div>
